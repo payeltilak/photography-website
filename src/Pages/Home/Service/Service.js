@@ -1,21 +1,30 @@
-import { Button } from 'bootstrap';
+import { Button } from 'react-bootstrap';
 import React from 'react';
-import { Card } from 'react-bootstrap';
+
+import { useNavigate } from 'react-router-dom';
+import './Service.css';
 
 const Service = ({ service }) => {
-    const { name, price, img, description } = service;
+    const { name, price, img, Description } = service;
+    const navigate = useNavigate();
+    const navigateToServiceDetail = id => {
+        // navigate(/service/${id});
+    }
     return (
-        <div>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={img} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <p>{price}</p>
-                    <p>{description}</p>
-                    <Button variant="primary">Check me</Button>
-                </Card.Body>
-            </Card>
+       <div className='container'>
+            <div className='service text-white'>
+        
+        <div className='text-center'>
+            <img src={img} alt="" />
+            <h1>{name}</h1>
+            <p><small>{Description}</small></p>
+            {/* <button onClick={() => navigateToServiceDetail(id)} className='btn btn-warning'>See More</button> */}
         </div>
+    </div>
+       </div>
+           
+          
+       
     );
 };
 

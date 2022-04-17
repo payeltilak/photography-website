@@ -2,20 +2,13 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 const Banner = () => {
-    function ControlledCarousel() {
-        const [index, setIndex] = useState(0);
-      
-        const handleSelect = (selectedIndex, e) => {
-          setIndex(selectedIndex);
-        };
-      
     return (
         <div>
-           <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel >
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="d-block w-75 mx-auto"
+          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -25,8 +18,8 @@ const Banner = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="d-block w-75 mx-auto"
+          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
           alt="Second slide"
         />
 
@@ -37,8 +30,8 @@ const Banner = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="d-block w-75 mx-auto"
+          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
           alt="Third slide"
         />
 

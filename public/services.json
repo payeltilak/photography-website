@@ -1,52 +1,40 @@
 [
     {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/YjsZvd6/photo-4.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     },
     {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/PCqLX9Q/photo-5.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     },
     {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/Tw2S1QQ/photo-6.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     },
     {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/XDwqL6q/photo-7.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     },
      {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/thPHH6t/frank-mckenna-4-V8-Jxijg-Z-c-unsplash.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     },
     {
         "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
+        "img": "https://i.ibb.co/vjmdYWV/photo-9.jpg",
+        "price": "100",
         "Description" :"Lorem...."
     }
-    ,
-    {
-        "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
-        "Description" :"Lorem...."
-    }
-    ,
-    {
-        "name": "Photography",
-        "img": "https://ibb.co'/album/rRg9QB",
-        "price ": "100",
-        "Description" :"Lorem...."
-    }
+    
 ]
+   
