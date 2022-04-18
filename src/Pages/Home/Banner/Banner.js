@@ -5,44 +5,33 @@ const Banner = () => {
     return (
         <div>
             <Carousel >
-      <Carousel.Item>
-        <img
-          className="d-block w-75 mx-auto"
-          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-75 mx-auto"
-          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
-          alt="Second slide"
-        />
+                <Carousel.Item>
+                    <img
+                        className="d-block w-75 mx-auto"
+                        src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
+                        alt="First slide"
+                    />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-75 mx-auto"
-          src="https://i.ibb.co/mtWLbTw/First-photo.jpg"
-          alt="Third slide"
-        />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-75 mx-auto"
+                        src="https://i.ibb.co/2vVgNhX/Photo2.jpg"
+                        alt="Second slide"
+                    />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-75 mx-auto"
+                        src="https://i.ibb.co/xHy1R52/Photo1.jpg"
+                        alt="Third slide"
+                    />
+
+
+                </Carousel.Item>
+            </Carousel>
         </div>
     );
 };
