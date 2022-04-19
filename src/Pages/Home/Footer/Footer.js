@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     
     return (
-        <footer>
-            <p><small>copyright @ </small></p>
+        <footer className='text-center'>
+            <p><small>copyright @payeltilak </small></p>
         </footer>
     );
 };

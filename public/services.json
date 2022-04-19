@@ -1,44 +1,30 @@
 [
     {
         "id": "1",
-        "name": "Photography",
+        "name": "Regular Photography",
         "img": "https://i.ibb.co/YjsZvd6/photo-4.jpg",
-        "price": "100",
-        "Description": "Lorem...."
+        "price": "10000",
+        "Description": "here are plenty of different types of photography out there in the world ... the focus is on capturing the everyday life of regular people."
     },
     {
         "id": "2",
-        "name": "Photography",
+        "name": "Wild Photography",
         "img": "https://i.ibb.co/PCqLX9Q/photo-5.jpg",
-        "price": "100",
-        "Description": "Lorem...."
+        "price": "25000",
+        "Description": "Wildlife destinations have so many and each has so much to offer. Travelogue and tips from the wildlife photographers who has been there already will be so crucial to get most out of your wildlife vacation."
     },
     {
         "id": "3",
-        "name": "Photography",
+        "name": "Natural Photography",
         "img": "https://i.ibb.co/Tw2S1QQ/photo-6.jpg",
-        "price": "100",
-        "Description": "Lorem...."
+        "price": "15000",
+        "Description": "Natural Light Photography, what does that even mean?  Lately I’ve heard a lot of photographers say “I’m a natural light photographer” and it got me thinking about what this term really means to me and how it’s applied to wedding photography."
     },
     {
         "id": "4",
-        "name": "Photography",
+        "name": "Portrait Photography",
         "img": "https://i.ibb.co/XDwqL6q/photo-7.jpg",
-        "price": "100",
-        "Description": "Lorem...."
-    },
-    {
-        "id": "5",
-        "name": "Photography",
-        "img": "https://i.ibb.co/thPHH6t/frank-mckenna-4-V8-Jxijg-Z-c-unsplash.jpg",
-        "price": "100",
-        "Description": "Lorem...."
-    },
-    {
-        "id": "6",
-        "name": "Photography",
-        "img": "https://i.ibb.co/vjmdYWV/photo-9.jpg",
-        "price": "100",
-        "Description": "Lorem...."
+        "price": "17000",
+        "Description": "Portrait photography, or portraiture, is a type of photography aimed toward capturing the personality of a person or group of people by using effective lighting, backdrops, and poses. A portrait photograph may be artistic or clinical."
     }
 ]

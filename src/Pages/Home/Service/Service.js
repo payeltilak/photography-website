@@ -15,9 +15,10 @@ const Service = ({ service }) => {
         <div className='container'>
             <div className='service text-white'>
 
-                <div className='text-center'>
+                <div className='text-center '>
                     <img src={img} alt="" />
                     <h1>{name}</h1>
+                    <h4>${price}</h4>
                     <p><small>{Description}</small></p>
                     <button className='btn-primary rounded' onClick={()=>navigateToLogin(id)}>Book Now</button>
                 </div>
