@@ -4,6 +4,7 @@ import { Button, Nav } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import ContactUs from '../../Contact Us/ContactUs';
 
 
 const Header = () => {
@@ -28,6 +29,7 @@ const Header = () => {
                 <Link className='text-decoration-none fw-bold p-2' to='/about'>About</Link>
 
                 <Link className='text-decoration-none fw-bold p-2' to='/blogs'>Blogs</Link>
+               
 
             </nav>
 

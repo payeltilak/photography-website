@@ -5,9 +5,9 @@ import { Button } from 'react-bootstrap';
 const CheckOut = () => {
     return (
         <div>
-            <h2 className='text-center'>Please Pay for Your Booking</h2>
+            <img src="https://thumbs.dreamstime.com/z/secure-checkout-icon-21909253.jpg" alt="" />
             <Button className='text-center btn-primary'>Check Out</Button>
-            
+
 
         </div>
     );

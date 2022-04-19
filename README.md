@@ -1,8 +1,26 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# website-link: [photography](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+* Install firebase
+
+* Install router
+
+* install React Bootstrap
+
+* Create project in firebase.init.js 
+
+* Create all component in src folder 
+
+* create protected page
+
+* create fake data for services section
+
+* Implement Email password based authentication
+
+* 404 page found when page can not found.
 
 In the project directory, you can run:
 
