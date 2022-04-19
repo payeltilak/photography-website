@@ -20,25 +20,8 @@ const Blogs = () => {
             <h2 className='text-primary'>3.What other services does firebase provide other than authentication?</h2>
             <h5>
 
-                a.Cloud Firestore <br />
-
-                b. Cloud Functions <br />
-
-                c. Authentication<br />
-
-                d. Hosting<br />
-
-                e.Cloud Storage<br />
-
-                f. Google Analytics<br />
-
-                g. Predictions<br />
-
-                h. Cloud Messaging<br />
-
-                i.Dynamic Links<br />
-
-                j.Remote Configure</h5>
+                Some other services firbase provides are:Firebase can used to get realtime database.Firebase also provies fast web app hosting. It also provides crash notifications. It also offers a feature which is analytics. It also provides other features such as cloud function,cloud firestore. It also provides cloud messaging service.
+                </h5>
         </div>
     );
 };

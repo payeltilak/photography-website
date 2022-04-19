@@ -1,9 +1,28 @@
 import React from 'react';
 import google from './../../../Images/images.png';
-import facebook from './../../../Images/facebook-logo-icon-voronezh-russia-january-blue-square-reflection-shadow-171161171.jpg';
-import github from './../../../Images/download.png';
+
+
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const SocialLogin = () => {
+    
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const navigate=useNavigate();
+    let errorElement;
+    if (error) {
+        return (
+            errorElement=
+          <div>
+            <p className='text-danger'>Error: {error.message}</p>
+          </div>
+        );
+      }
+      if(user){
+         navigate('/home')
+      }
+      
     return (
         <div>
             <div className='d-flex align-items-center   '>
@@ -12,22 +31,20 @@ const SocialLogin = () => {
            <div style={{height:'1px'}} className='bg-primary w-50'></div> 
           
         </div>
+        {errorElement}
         <div>
-         <button className='btn-primary rounded w-50 mt-4 align-items-center mx-auto d-block'>
+         <button onClick={()=>signInWithGoogle()
+             
+         }
+         className='btn-primary rounded w-50 mt-4 align-items-center mx-auto d-block'>
             <img style={{width:'40px'}} src={google} alt="" />
             <span className='px-1'> Google SignIn</span>
              </button>
           </div>
           <div>
-          <button className='btn-primary rounded w-50 mt-4 align-items-center mx-auto d-block'>
-            <img style={{width:'40px'}} src={facebook} alt="" />
-            <span className='px-1'> FaceBook SignIn</span>
-             </button>
+        
           </div>
-          <button className='btn-primary rounded w-50 mt-4 align-items-center mx-auto d-block'>
-            <img style={{width:'40px'}} src={github} alt="" />
-            <span className='px-1'> GitHub SignIn</span>
-             </button>
+         
         </div>
     );
 };
