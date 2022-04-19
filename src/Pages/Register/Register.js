@@ -8,14 +8,14 @@ import SocialLogin from '../Login/SocialLogin/SocialLogin';
 
 
 const Register = () => {
-    const [SendEmailVerification, sending] = useSendEmailVerification(auth);
+    const [SendEmailVerification] = useSendEmailVerification(auth);
     const [
         createUserWithEmailAndPassword,
         user,
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification: true});
-    const [updateProfile, updating] = useUpdateProfile(auth);
+    const [updateProfile] = useUpdateProfile(auth);
  
 
 
